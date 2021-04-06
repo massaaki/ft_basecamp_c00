@@ -6,7 +6,7 @@
 /*   By: mmassaak <mmassaak@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/04 16:51:18 by mmassaak          #+#    #+#             */
-/*   Updated: 2021/04/04 16:59:38 by mmassaak         ###   ########.fr       */
+/*   Updated: 2021/04/06 11:56:22 by mmassaak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_print_numbers(void)
 	num_as_char = '0';
 	while (number < 10)
 	{
-		write(1,&num_as_char, 1);
+		write(1, &num_as_char, 1);
 		number++;
 		num_as_char = number + '0';
 	}
